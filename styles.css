@@ -59,6 +59,8 @@ a {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .block1-left {
@@ -109,6 +111,7 @@ h1 {
     display: flex;
     height: 300px;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .block2-top {
@@ -155,9 +158,32 @@ h1 {
 }
 
 .block3 {
-    flex: 1;
+    height: 450px;
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.block3-content {
+    width: 650px;
+    flex-wrap: wrap;
+}
+
+.block3-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.block3-quote-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block3-quote {
+    font-weight: bolder;
+    margin-top: 0;
 }
 
 .block4 {
-    flex: 1;
+    height: 300px;
 }
